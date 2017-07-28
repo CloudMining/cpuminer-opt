@@ -1,8 +1,8 @@
 #
 # Dockerfile for cpuminer-opt
-# usage: docker build -t cpuminer-opt:latest .
-# run: docker run -it --rm cpuminer-opt:latest [ARGS]
-# ex: docker run -it --rm cpuminer-opt:latest -a cryptonight -o cryptonight.eu.nicehash.com:3355 -u 1MiningDW2GKzf4VQfmp4q2XoUvR6iy6PD.worker1 -p x -t 3
+# usage: docker build -t cloudmining:cpuminer-opt .
+# run: docker run -it --rm cloudmining:cpuminer-opt [ARGS]
+# ex: docker run -it --rm cloudmining:cpuminer-opt -a cryptonight -o cryptonight.eu.nicehash.com:3355 -u 1MiningDW2GKzf4VQfmp4q2XoUvR6iy6PD.worker1 -p x -t 3
 #
 
 FROM ubuntu:16.04
